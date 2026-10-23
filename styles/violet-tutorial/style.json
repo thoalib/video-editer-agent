@@ -1,0 +1,423 @@
+{
+ "name": "Violet Tutorial",
+ "description": "Measured from styles/violet-tutorial/study (purple-lit talking head, tutorial breakdown): mixed-type chest captions (Great Vibes script + Inter regular/bold) cascading right and revealed through blur, one-word captions between key phrases, glowing purple diamond step badges, full-screen step cards (navy->violet, glowing portrait card, sparkle bullets typing on, footer line), glowing image-card row behind the head, glass YouTube card, leader-line labels.",
+ "fonts": {
+  "caption": "500 46px Inter",
+  "display": "400 104px GreatVibes",
+  "thinFamily": "Inter"
+ },
+ "colors": {
+  "text": "#FFFFFF",
+  "accent": "#9B5CFF",
+  "highlight": "#E3D2FF",
+  "sparkle": "#FFFFFF",
+  "ui": "#7B2FF2",
+  "splitBg": [
+   14,
+   12,
+   40
+  ],
+  "card": "#1A1436"
+ },
+ "caption": {
+  "tracking": "-0.01em",
+  "stroke": 0,
+  "shadow": "0 2px 10px rgba(20,0,50,.35)",
+  "line1": {
+   "font": "400 46px Inter",
+   "size": 46,
+   "stroke": 0,
+   "color": "#FFFFFF"
+  },
+  "big": {
+   "font": "400 110px GreatVibes",
+   "size": 110,
+   "stroke": 0,
+   "color": "#FFFFFF",
+   "lh": 0.9,
+   "mt": -10,
+   "ls": "0"
+  },
+  "underline": {
+   "type": null,
+   "colors": [
+    "#1BF2F8"
+   ],
+   "glow": "#1BF2F8",
+   "glow2": "rgba(27,242,248,.55)"
+  }
+ },
+ "motion": {
+  "reveal": {
+   "dur": 0.28,
+   "startOpacity": 0,
+   "offsetEm": 0.12,
+   "blur": 10
+  },
+  "type": {
+   "cps": 40
+  }
+ },
+ "camera": {
+  "openScale": 1.08,
+  "openTau": 0.35
+ },
+ "dots": {
+  "speaker": 0
+ },
+ "pointer": {
+  "size": 54,
+  "stroke": 1.6,
+  "color": "#EDEDED",
+  "fill": "linear-gradient(160deg,#E3D2FF,#9B5CFF 45%,#5B16C9)"
+ },
+ "wallWords": {
+  "serif": "400 140px GreatVibes",
+  "bold": "700 84px Inter",
+  "small": "400 54px Inter",
+  "color": "#FFFFFF",
+  "boldColor": "#FFFFFF",
+  "smallColor": "#EDEBF7",
+  "heavy": "italic 900 170px Inter"
+ },
+ "stacked": {
+  "font": "500 60px Inter",
+  "stroke": 0,
+  "bigStroke": 0
+ },
+ "pointerLines": {
+  "size": 40,
+  "color": "#E6E6E4",
+  "tri": "#C9A2FF"
+ },
+ "card": {
+  "radius": 27,
+  "titleSize": 44,
+  "rowSize": 38
+ },
+ "chart": {
+  "text": "#8FFF85",
+  "capSize": 64,
+  "stops": [
+   [
+    "0",
+    "#D4FFCC"
+   ],
+   [
+    "0.35",
+    "#8BFF81"
+   ],
+   [
+    "1",
+    "#5CFF48"
+   ]
+  ],
+  "glow": "rgba(120,255,100,.85)",
+  "glow2": "rgba(110,255,90,.45)"
+ },
+ "map": {
+  "bg": "#080805",
+  "bgRGB": [
+   8,
+   8,
+   5
+  ],
+  "road": "#444444",
+  "route": "#FAFF18",
+  "routeGlow": "rgba(250,255,24,.45)",
+  "puck": "#F4721A",
+  "puckGlow": "rgba(244,114,26,.55)",
+  "ray": "#FFE68A"
+ },
+ "circleBg": [
+  [
+   0,
+   [
+    36,
+    35,
+    28
+   ]
+  ],
+  [
+   0.5,
+   [
+    44,
+    43,
+    43
+   ]
+  ],
+  [
+   1,
+   [
+    31,
+    31,
+    31
+   ]
+  ]
+ ],
+ "subtitles": {
+  "font": "700 58px Inter",
+  "size": 58,
+  "stroke": 0,
+  "shadow": "0 2px 12px rgba(20,0,50,.45)"
+ },
+ "chips": {
+  "bg": "#FFFFFF",
+  "color": "#1A1436",
+  "font": "600 38px Montserrat",
+  "icon": "#7B2FF2"
+ },
+ "watermark": "",
+ "palette_for_people": "deep purple room light, navy->violet screens, white type, lavender rims and glows",
+ "signature_templates": [
+  "mixCaption",
+  "wordFlash",
+  "diamondBadges",
+  "diamondBadge",
+  "stepCard",
+  "cardRow",
+  "videoCard",
+  "leaderLabel",
+  "bulletList"
+ ],
+ "mix": {
+  "base": {
+   "lh": 0.95,
+   "mt": -16,
+   "shadow": "0 2px 10px rgba(20,0,50,.35)"
+  },
+  "script": {
+   "font": "400 104px GreatVibes",
+   "size": 104,
+   "color": "#FFFFFF",
+   "ls": "0",
+   "dy": 4
+  },
+  "sans": {
+   "font": "400 46px Inter",
+   "size": 46,
+   "color": "#FFFFFF",
+   "ls": "-0.01em"
+  },
+  "bold": {
+   "font": "700 60px Inter",
+   "size": 60,
+   "color": "#FFFFFF",
+   "ls": "-0.015em"
+  },
+  "serif": {
+   "font": "italic 700 90px Tinos",
+   "size": 90,
+   "color": "#FFFFFF"
+  },
+  "thin": {
+   "font": "italic 300 46px Inter",
+   "size": 46,
+   "color": "#FFFFFF"
+  },
+  "heavy": {
+   "font": "italic 900 140px Inter",
+   "size": 140,
+   "color": "#FFFFFF"
+  },
+  "bubble": {
+   "blur": 10
+  },
+  "underline": {
+   "color": "#FFFFFF",
+   "w": 1.8
+  }
+ },
+ "flash": {
+  "font": "700 62px Inter",
+  "size": 62,
+  "y": 1080,
+  "hold": 1.4,
+  "shadow": "0 2px 12px rgba(20,0,50,.4)"
+ },
+ "glow": {
+  "bg": [
+   [
+    0,
+    [
+     9,
+     13,
+     38
+    ]
+   ],
+   [
+    0.5,
+    [
+     18,
+     17,
+     64
+    ]
+   ],
+   [
+    0.8,
+    [
+     36,
+     15,
+     92
+    ]
+   ],
+   [
+    1,
+    [
+     70,
+     18,
+     128
+    ]
+   ]
+  ],
+  "badgeFill": "linear-gradient(135deg,#B47CFF 0%,#7B2FF2 45%,#4F12B8 100%)",
+  "badgeRim": "#E3D2FF",
+  "badgeFont": "700 40px Montserrat",
+  "glowColor": "rgba(160,90,255,.9)",
+  "glowColor2": "rgba(140,60,255,.45)",
+  "rim": "#C9A2FF",
+  "rimW": 4,
+  "radius": 27,
+  "titleFont": "600 42px Montserrat",
+  "title": "#E9E6F5",
+  "footFont": "500 31px Montserrat",
+  "foot": "#D8D6E6",
+  "rowRim": "rgba(245,235,255,.95)",
+  "rowGlow": "rgba(230,200,255,.85)",
+  "rowRadius": 14
+ },
+ "list": {
+  "font": "500 28px Montserrat",
+  "color": "#F2F0FA",
+  "gap": 30,
+  "icon": 34,
+  "iconColor": "#FFFFFF",
+  "glow": "rgba(255,255,255,.8)",
+  "width": 330,
+  "lh": 1.25,
+  "cps": 40,
+  "arrow": {
+   "icon": 40,
+   "gap": 26
+  }
+ },
+ "leader": {
+  "color": "#FFFFFF",
+  "w": 2.2,
+  "font": "500 22px Montserrat",
+  "text": "#EDEBF7"
+ },
+ "videoCard": {
+  "radius": 22,
+  "family": "Inter",
+  "blur": 14
+ },
+ "hud": {
+  "ring": "#B47CFF",
+  "ringGlow": "rgba(180,124,255,.9)",
+  "ringGlow2": "rgba(150,90,255,.45)",
+  "bar": "#D9C2FF",
+  "star": "#C9A2FF",
+  "panelFill": "linear-gradient(180deg,rgba(110,60,220,.55),rgba(70,30,170,.38) 60%,rgba(70,30,170,.2))",
+  "panelEdge": "rgba(220,200,255,.3)",
+  "blur": 16
+ },
+ "cta": {
+  "tile": "radial-gradient(ellipse at 50% 85%,#6A2BD0,#24102F 60%,#141018)"
+ },
+ "modes": [
+  "speaker + mixCaption (key phrases)",
+  "speaker + wordFlash (between key phrases)",
+  "speaker + diamondBadges (counting steps)",
+  "stepCard full screen (explaining one step, no speaker)",
+  "image card full screen + leaderLabel (pointing at details)",
+  "speaker + cardRow behind head (hook / examples)",
+  "speaker + videoCard (watch the full video CTA)"
+ ],
+ "anchors": {
+  "mixCaption": {
+   "@": "chin",
+   "dx": -0.1,
+   "pin": "top-center",
+   "fy": 0.2
+  },
+  "wordFlash": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.32
+  },
+  "diamondBadges": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.69
+  },
+  "diamondBadge": {
+   "@": "chin",
+   "dx": -0.95,
+   "pin": "center",
+   "fy": 0.3
+  },
+  "videoCard": {
+   "@": "chin",
+   "dx": 0.1,
+   "pin": "top-center",
+   "fy": 0.61
+  },
+  "cardRow": {
+   "@": "top",
+   "dy": -0.2,
+   "pin": "center",
+   "axis": "y",
+   "avoidFace": false
+  },
+  "bulletList": {
+   "@": "side",
+   "dx": 0.25,
+   "dy": 0.6
+  },
+  "ringStat": {
+   "@": "chin",
+   "dx": 0.15,
+   "pin": "center",
+   "fy": 0.55
+  },
+  "glassPanel": {
+   "@": "chin",
+   "dx": 0.1,
+   "pin": "top-center",
+   "fy": 0.2
+  },
+  "productCard": {
+   "@": "chin",
+   "dx": -0.35,
+   "pin": "top-center",
+   "fy": 0.32
+  },
+  "commentCta": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.2
+  },
+  "ratingStars": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.73
+  },
+  "chestCaption": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.22
+  }
+ },
+ "safe": [
+  60,
+  200,
+  1020,
+  1650
+ ]
+}

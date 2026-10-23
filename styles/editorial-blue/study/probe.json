@@ -1,0 +1,14 @@
+{
+ "width": 720,
+ "height": 1280,
+ "fps": 25.0,
+ "fps_str": "25/1",
+ "duration": 29.093197,
+ "vcodec": "h264",
+ "pix_fmt": "yuv420p",
+ "color_transfer": "bt709",
+ "rotation": 0,
+ "has_audio": true,
+ "audio_rate": 44100,
+ "vfr": false
+}

@@ -1,0 +1,196 @@
+{
+ "name": "Bold Terracotta",
+ "description": "Warm footage, a small white line plus heavy white condensed caps, key words on terracotta boxes, one thin lowercase word, rounded split screens, white pill chips with icons, check lines, tag rows, b-roll with a terracotta gradient rising from the bottom.",
+ "fonts": {
+  "caption": "600 46px Inter",
+  "display": "400 128px Anton",
+  "thinFamily": "Inter"
+ },
+ "colors": {
+  "text": "#FFFFFF",
+  "accent": "#B4562E",
+  "highlight": "#F2C9A8",
+  "sparkle": "#F2C9A8",
+  "ui": "#B4562E",
+  "splitBg": [
+   32,
+   22,
+   18
+  ],
+  "card": "#2b211c"
+ },
+ "caption": {
+  "tracking": "0",
+  "stroke": 0,
+  "shadow": "0 4px 18px rgba(0,0,0,.45)",
+  "boxRadius": "0.14em",
+  "line1": {
+   "font": "600 46px Inter",
+   "size": 46,
+   "stroke": 0,
+   "color": "#FFFFFF",
+   "ls": "-0.01em"
+  },
+  "big": {
+   "font": "400 128px Anton",
+   "size": 128,
+   "stroke": 0,
+   "color": "#FFFFFF",
+   "lh": 0.95,
+   "mt": 6,
+   "upper": true,
+   "ls": "0.005em"
+  },
+  "underline": {
+   "type": null
+  }
+ },
+ "motion": {
+  "reveal": {
+   "dur": 0.22,
+   "startOpacity": 0.0,
+   "offsetEm": 0.25
+  }
+ },
+ "camera": {
+  "openScale": 1.12,
+  "openTau": 0.22
+ },
+ "dots": {
+  "speaker": 0
+ },
+ "pointer": {
+  "size": 50,
+  "stroke": 0,
+  "color": "#FFFFFF",
+  "font": "600 50px Inter",
+  "fill": "#B4562E"
+ },
+ "wallWords": {
+  "serif": "400 140px Anton",
+  "bold": "800 84px Inter",
+  "small": "600 50px Inter",
+  "color": "#FFFFFF",
+  "boldColor": "#F2C9A8",
+  "smallColor": "#FFFFFF"
+ },
+ "stacked": {
+  "font": "400 60px Anton",
+  "stroke": 0,
+  "bigStroke": 0
+ },
+ "pointerLines": {
+  "size": 42,
+  "color": "#FFFFFF",
+  "tri": "#B4562E",
+  "font": "600 42px Inter"
+ },
+ "card": {
+  "radius": 36,
+  "fill": "linear-gradient(162deg,rgba(80,52,40,.95),rgba(44,30,24,.96))",
+  "font": "600 40px Inter",
+  "titleSize": 46,
+  "rowSize": 38
+ },
+ "chart": {
+  "text": "#F2C9A8",
+  "capSize": 62,
+  "stops": [
+   [
+    "0",
+    "#FBE3D2"
+   ],
+   [
+    "0.4",
+    "#E08A5F"
+   ],
+   [
+    "1",
+    "#B4562E"
+   ]
+  ],
+  "glow": "rgba(224,138,95,.8)",
+  "glow2": "rgba(180,86,46,.45)"
+ },
+ "map": {
+  "bg": "#120c09",
+  "bgRGB": [
+   18,
+   12,
+   9
+  ],
+  "road": "#4a3a33",
+  "route": "#F2C9A8",
+  "routeGlow": "rgba(242,201,168,.45)",
+  "puck": "#B4562E",
+  "puckGlow": "rgba(180,86,46,.55)",
+  "ray": "#F2C9A8",
+  "badgeFill": "linear-gradient(145deg,#F6D9C4 0%,#E08A5F 40%,#B4562E 75%,#7a3519 100%)",
+  "badgeGlow": "rgba(224,138,95,.35)",
+  "badgeInk": [
+   "#5a2410",
+   "#3a1606"
+  ]
+ },
+ "circleBg": [
+  [
+   0,
+   [
+    40,
+    28,
+    22
+   ]
+  ],
+  [
+   0.5,
+   [
+    52,
+    36,
+    29
+   ]
+  ],
+  [
+   1,
+   [
+    30,
+    22,
+    18
+   ]
+  ]
+ ],
+ "subtitles": {
+  "font": "800 56px Inter",
+  "size": 56,
+  "upper": true,
+  "shadow": "0 4px 14px rgba(0,0,0,.6)",
+  "active": "#F2C9A8"
+ },
+ "chips": {
+  "bg": "#FFFFFF",
+  "color": "#1d1410",
+  "font": "600 38px Inter",
+  "icon": "#B4562E"
+ },
+ "checkLine": {
+  "iconBg": "#B4562E",
+  "font": "700 54px Inter"
+ },
+ "split": {
+  "radius": 40
+ },
+ "nameTag": {
+  "ring": "#B4562E"
+ },
+ "watermark": "",
+ "palette_for_people": "warm footage, white type, terracotta #B4562E boxes and gradients, white pills",
+ "signature_templates": [
+  "chestCaption (heavy caps, box/thin word options)",
+  "splitScreen",
+  "pillChips",
+  "checkLine",
+  "tagRow",
+  "calloutLine+accentGradient",
+  "nameTag",
+  "speaker punch-ins"
+ ]
+}

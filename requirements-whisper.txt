@@ -1,0 +1,2 @@
+# Optional local STT fallback (./setup.sh --whisper)
+openai-whisper>=20240930

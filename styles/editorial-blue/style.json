@@ -1,0 +1,431 @@
+{
+ "name": "Editorial Blue",
+ "description": "Measured from styles/editorial-blue/study (warm personal intro, blue round light): small light-italic Inter lines with big Tinos bold-italic key words, captions placed around the head (left/right/above), punch-in cuts, cream grid-paper frame with navy stars and a typed label box, white-flash into a grainy film-card b-roll montage with serif labels, design selection box + cursor, app icons popping behind the head, heavy italic word behind the head, perspective text on the desk, text curving along the light, emoji pop CTA.",
+ "fonts": {
+  "caption": "italic 300 46px Inter",
+  "display": "italic 700 96px Tinos",
+  "thinFamily": "Inter"
+ },
+ "colors": {
+  "text": "#FFFFFF",
+  "accent": "#2F6BFF",
+  "highlight": "#7FB2FF",
+  "sparkle": "#FFFFFF",
+  "ui": "#1F3A93",
+  "splitBg": [
+   241,
+   238,
+   232
+  ],
+  "card": "#0E2A8A"
+ },
+ "caption": {
+  "tracking": "-0.01em",
+  "stroke": 0,
+  "shadow": "0 2px 10px rgba(20,0,50,.35)",
+  "line1": {
+   "font": "italic 300 46px Inter",
+   "size": 46,
+   "stroke": 0,
+   "color": "#FFFFFF"
+  },
+  "big": {
+   "font": "italic 700 100px Tinos",
+   "size": 100,
+   "stroke": 0,
+   "color": "#FFFFFF",
+   "lh": 0.95,
+   "mt": -2,
+   "ls": "-0.005em"
+  },
+  "underline": {
+   "type": null,
+   "colors": [
+    "#1BF2F8"
+   ],
+   "glow": "#1BF2F8",
+   "glow2": "rgba(27,242,248,.55)"
+  }
+ },
+ "motion": {
+  "reveal": {
+   "dur": 0.28,
+   "startOpacity": 0,
+   "offsetEm": 0.12,
+   "blur": 10
+  },
+  "type": {
+   "cps": 40
+  }
+ },
+ "camera": {
+  "openScale": 1.08,
+  "openTau": 0.4
+ },
+ "dots": {
+  "speaker": 0
+ },
+ "pointer": {
+  "size": 54,
+  "stroke": 1.6,
+  "color": "#EDEDED",
+  "fill": "linear-gradient(160deg,#BFD5FF,#2F6BFF 45%,#1F3A93)"
+ },
+ "wallWords": {
+  "serif": "italic 700 110px Tinos",
+  "bold": "italic 700 70px Inter",
+  "small": "italic 300 50px Inter",
+  "color": "#FFFFFF",
+  "boldColor": "#FFFFFF",
+  "smallColor": "#F4F6FC",
+  "heavy": "italic 900 190px Inter",
+  "strokes": {
+   "small": 0,
+   "serif": 0,
+   "bold": 0,
+   "heavy": 0
+  },
+  "shadows": {
+   "small": "0 3px 10px rgba(0,0,0,.35)",
+   "serif": "0 6px 18px rgba(0,0,0,.4)",
+   "bold": "0 4px 14px rgba(0,0,0,.35)",
+   "heavy": "0 8px 30px rgba(0,0,0,.25)"
+  }
+ },
+ "stacked": {
+  "font": "500 60px Inter",
+  "stroke": 0,
+  "bigStroke": 0
+ },
+ "pointerLines": {
+  "size": 40,
+  "color": "#E6E6E4",
+  "tri": "#7FB2FF"
+ },
+ "card": {
+  "radius": 27,
+  "titleSize": 44,
+  "rowSize": 38
+ },
+ "chart": {
+  "text": "#8FFF85",
+  "capSize": 64,
+  "stops": [
+   [
+    "0",
+    "#D4FFCC"
+   ],
+   [
+    "0.35",
+    "#8BFF81"
+   ],
+   [
+    "1",
+    "#5CFF48"
+   ]
+  ],
+  "glow": "rgba(120,255,100,.85)",
+  "glow2": "rgba(110,255,90,.45)"
+ },
+ "map": {
+  "bg": "#080805",
+  "bgRGB": [
+   8,
+   8,
+   5
+  ],
+  "road": "#444444",
+  "route": "#FAFF18",
+  "routeGlow": "rgba(250,255,24,.45)",
+  "puck": "#F4721A",
+  "puckGlow": "rgba(244,114,26,.55)",
+  "ray": "#FFE68A"
+ },
+ "circleBg": [
+  [
+   0,
+   [
+    36,
+    35,
+    28
+   ]
+  ],
+  [
+   0.5,
+   [
+    44,
+    43,
+    43
+   ]
+  ],
+  [
+   1,
+   [
+    31,
+    31,
+    31
+   ]
+  ]
+ ],
+ "subtitles": {
+  "font": "italic 400 50px Inter",
+  "size": 50,
+  "stroke": 0,
+  "shadow": "0 2px 12px rgba(0,10,40,.45)"
+ },
+ "chips": {
+  "bg": "#0E2A8A",
+  "color": "#FFFFFF",
+  "font": "italic 700 40px Tinos",
+  "icon": "#FFFFFF"
+ },
+ "watermark": "",
+ "palette_for_people": "blue round light, cream paper, navy accents, white type with serif italics, warm film-grain b-roll",
+ "signature_templates": [
+  "mixCaption",
+  "wordFlash",
+  "wallWords(heavy, behindHead)",
+  "paperFrame",
+  "filmCards",
+  "selectBox",
+  "iconPop",
+  "floorText",
+  "arcText",
+  "emojiPop"
+ ],
+ "mix": {
+  "base": {
+   "lh": 1.0,
+   "mt": -6,
+   "shadow": "0 2px 14px rgba(0,10,40,.35)"
+  },
+  "script": {
+   "font": "italic 700 100px Tinos",
+   "size": 100,
+   "color": "#FFFFFF",
+   "ls": "0",
+   "dy": 4
+  },
+  "sans": {
+   "font": "italic 400 46px Inter",
+   "size": 46,
+   "color": "#F4F6FC",
+   "ls": "-0.01em"
+  },
+  "bold": {
+   "font": "italic 700 60px Inter",
+   "size": 60,
+   "color": "#FFFFFF",
+   "ls": "-0.02em"
+  },
+  "serif": {
+   "font": "italic 700 100px Tinos",
+   "size": 100,
+   "color": "#FFFFFF",
+   "ls": "-0.005em"
+  },
+  "thin": {
+   "font": "italic 300 46px Inter",
+   "size": 46,
+   "color": "#F4F6FC",
+   "ls": "-0.01em"
+  },
+  "heavy": {
+   "font": "italic 900 150px Inter",
+   "size": 150,
+   "color": "#FFFFFF",
+   "ls": "-0.02em",
+   "upper": true
+  },
+  "bubble": {
+   "blur": 12,
+   "fill": "radial-gradient(ellipse at 35% 30%,rgba(255,255,255,.30),rgba(255,255,255,.10) 70%)"
+  },
+  "underline": {
+   "color": "#FFFFFF",
+   "w": 1.8
+  }
+ },
+ "flash": {
+  "font": "italic 300 48px Inter",
+  "size": 48,
+  "y": 1125,
+  "hold": 1.6,
+  "shadow": "0 2px 12px rgba(0,10,40,.35)"
+ },
+ "glow": {
+  "bg": [
+   [
+    0,
+    [
+     9,
+     13,
+     38
+    ]
+   ],
+   [
+    0.5,
+    [
+     18,
+     17,
+     64
+    ]
+   ],
+   [
+    0.8,
+    [
+     36,
+     15,
+     92
+    ]
+   ],
+   [
+    1,
+    [
+     70,
+     18,
+     128
+    ]
+   ]
+  ],
+  "badgeFill": "linear-gradient(135deg,#B47CFF 0%,#7B2FF2 45%,#4F12B8 100%)",
+  "badgeRim": "#E3D2FF",
+  "badgeFont": "700 40px Montserrat",
+  "glowColor": "rgba(160,90,255,.9)",
+  "glowColor2": "rgba(140,60,255,.45)",
+  "rim": "#C9A2FF",
+  "rimW": 4,
+  "radius": 27,
+  "titleFont": "600 42px Montserrat",
+  "title": "#E9E6F5",
+  "footFont": "500 31px Montserrat",
+  "foot": "#D8D6E6",
+  "rowRim": "rgba(245,235,255,.95)",
+  "rowGlow": "rgba(230,200,255,.85)",
+  "rowRadius": 14
+ },
+ "list": {
+  "font": "500 28px Montserrat",
+  "color": "#F2F0FA",
+  "gap": 30,
+  "icon": 34,
+  "iconColor": "#FFFFFF",
+  "glow": "rgba(255,255,255,.8)",
+  "width": 330,
+  "lh": 1.25,
+  "cps": 40,
+  "arrow": {
+   "icon": 40,
+   "gap": 26
+  }
+ },
+ "leader": {
+  "color": "#FFFFFF",
+  "w": 2.2,
+  "font": "500 22px Montserrat",
+  "text": "#EDEBF7"
+ },
+ "videoCard": {
+  "radius": 22,
+  "family": "Inter",
+  "blur": 14
+ },
+ "hud": {
+  "ring": "#B47CFF",
+  "ringGlow": "rgba(180,124,255,.9)",
+  "ringGlow2": "rgba(150,90,255,.45)",
+  "bar": "#D9C2FF",
+  "star": "#C9A2FF",
+  "panelFill": "linear-gradient(180deg,rgba(110,60,220,.55),rgba(70,30,170,.38) 60%,rgba(70,30,170,.2))",
+  "panelEdge": "rgba(220,200,255,.3)",
+  "blur": 16
+ },
+ "cta": {
+  "tile": "radial-gradient(ellipse at 50% 85%,#6A2BD0,#24102F 60%,#141018)"
+ },
+ "modes": [
+  "speaker + mixCaption (thin italic line + big serif key word), placed beside / above the head",
+  "speaker + wordFlash (thin italic between key phrases)",
+  "paperFrame (speaker framed on paper + label box: a fact / number)",
+  "filmCards b-roll montage (listing skills / activities)",
+  "speaker + iconPop behind head (tools / apps named)",
+  "speaker + selectBox over a key word (design / editing topic)",
+  "speaker + heavy wallWords behind head (job title / big claim)",
+  "speaker + floorText / arcText (CTA: follow / if you want to)",
+  "speaker + emojiPop (DM / like / subscribe)"
+ ],
+ "paper": {
+  "bgRGB": [
+   241,
+   238,
+   232
+  ],
+  "line": "rgba(40,40,40,.5)",
+  "star": "#0E2A8A",
+  "labelBg": "#0E2A8A",
+  "labelFont": "italic 700 84px Tinos"
+ },
+ "film": {
+  "label": "italic 700 84px Tinos",
+  "labelSize": 84,
+  "radius": 26,
+  "grain": 0.07,
+  "shadow": "0 4px 18px rgba(0,0,0,.6)"
+ },
+ "select": {
+  "line": "rgba(255,255,255,.9)",
+  "handle": "#1F3A93",
+  "cursor": "#4F7BFF"
+ },
+ "floor": {
+  "font": "italic 900 120px Inter",
+  "color": "rgba(235,240,255,.42)"
+ },
+ "arc": {
+  "font": "600 40px Inter",
+  "color": "rgba(255,255,255,.55)"
+ },
+ "anchors": {
+  "mixCaption": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.3
+  },
+  "wordFlash": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.4
+  },
+  "emojiPop": {
+   "@": "chin",
+   "dx": 0.5,
+   "pin": "center",
+   "fy": 0.44
+  },
+  "chestCaption": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.3
+  },
+  "bulletList": {
+   "@": "side",
+   "dx": 0.25,
+   "dy": 0.6
+  },
+  "videoCard": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.6
+  }
+ },
+ "safe": [
+  60,
+  200,
+  1020,
+  1650
+ ]
+}

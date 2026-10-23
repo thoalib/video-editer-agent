@@ -1,0 +1,68 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 2.4,
+  "start_scale_vs_end": 0.954,
+  "settle_s": 2.2
+ },
+ {
+  "t0": 2.4,
+  "t1": 4.8,
+  "start_scale_vs_end": 1.112,
+  "settle_s": 2.2
+ },
+ {
+  "t0": 4.8,
+  "t1": 12.4,
+  "start_scale_vs_end": 1.248,
+  "settle_s": 5.2
+ },
+ {
+  "t0": 12.4,
+  "t1": 14.0,
+  "start_scale_vs_end": 0.893,
+  "settle_s": 0.6
+ },
+ {
+  "t0": 14.0,
+  "t1": 21.2,
+  "start_scale_vs_end": 1.082,
+  "settle_s": 0.2
+ },
+ {
+  "t0": 21.2,
+  "t1": 25.2,
+  "start_scale_vs_end": 0.891,
+  "settle_s": 3.7
+ },
+ {
+  "t0": 25.2,
+  "t1": 35.4,
+  "start_scale_vs_end": 1.023,
+  "settle_s": 7.6
+ },
+ {
+  "t0": 35.4,
+  "t1": 41.8,
+  "start_scale_vs_end": 1.211,
+  "settle_s": 5.3
+ },
+ {
+  "t0": 42.0,
+  "t1": 44.4,
+  "start_scale_vs_end": 0.787,
+  "settle_s": 1.5
+ },
+ {
+  "t0": 44.4,
+  "t1": 52.0,
+  "start_scale_vs_end": 2.052,
+  "settle_s": 0.4
+ },
+ {
+  "t0": 52.0,
+  "t1": 61.289375,
+  "start_scale_vs_end": 1.045,
+  "settle_s": 8.3
+ }
+]

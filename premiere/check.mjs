@@ -1,0 +1,11 @@
+import { PremiereProBridge } from '../vendor/premiere-pro-mcp/dist/bridge/index.js';
+import { PremiereProTools } from '../vendor/premiere-pro-mcp/dist/tools/index.js';
+process.env.PREMIERE_TEMP_DIR = '/tmp/premiere-mcp-bridge';
+process.env.PREMIERE_MCP_TELEMETRY = '0';
+process.env.PREMIERE_MCP_UPDATE_CHECK = '0';
+const bridge = new PremiereProBridge();
+const tools = new PremiereProTools(bridge);
+const capabilities = await tools.executeTool('get_capabilities', {checkConnection:false});
+const connection = await tools.executeTool('verify_premiere_connection', {launchIfNeeded:process.argv.includes('--launch')});
+console.log(JSON.stringify({capabilities,connection}, null, 2));
+process.exit(0);

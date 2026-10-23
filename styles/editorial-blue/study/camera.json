@@ -1,0 +1,44 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 2.92,
+  "start_scale_vs_end": 0.892,
+  "settle_s": 0.4
+ },
+ {
+  "t0": 2.92,
+  "t1": 6.0,
+  "start_scale_vs_end": 1.083,
+  "settle_s": 1.0
+ },
+ {
+  "t0": 6.12,
+  "t1": 7.32,
+  "start_scale_vs_end": 1.0,
+  "settle_s": 1.0
+ },
+ {
+  "t0": 7.52,
+  "t1": 8.12,
+  "start_scale_vs_end": 1.032,
+  "settle_s": 0.2
+ },
+ {
+  "t0": 8.12,
+  "t1": 9.0,
+  "start_scale_vs_end": 0.958,
+  "settle_s": 0.7
+ },
+ {
+  "t0": 9.0,
+  "t1": 13.0,
+  "start_scale_vs_end": 1.02,
+  "settle_s": 2.7
+ },
+ {
+  "t0": 13.0,
+  "t1": 29.093197,
+  "start_scale_vs_end": 1.188,
+  "settle_s": 6.1
+ }
+]

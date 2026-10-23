@@ -1,0 +1,26 @@
+[
+  {
+    "id": "soft-tick",
+    "path": "soft-tick.wav",
+    "duration": 0.12,
+    "origin": "Original deterministic synthesis by scripts/sound.py",
+    "suggested_gain_db": -18,
+    "review": "Audition against real dialogue before use."
+  },
+  {
+    "id": "soft-swish",
+    "path": "soft-swish.wav",
+    "duration": 0.45,
+    "origin": "Original deterministic synthesis by scripts/sound.py",
+    "suggested_gain_db": -18,
+    "review": "Audition against real dialogue before use."
+  },
+  {
+    "id": "warm-land",
+    "path": "warm-land.wav",
+    "duration": 0.28,
+    "origin": "Original deterministic synthesis by scripts/sound.py",
+    "suggested_gain_db": -18,
+    "review": "Audition against real dialogue before use."
+  }
+]

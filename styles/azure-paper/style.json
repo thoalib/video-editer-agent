@@ -1,0 +1,551 @@
+{
+ "name": "Azure Paper",
+ "description": "Measured from styles/azure-paper/study (cool studio talking head, ad/explainer): the lower frame melts into a progressive blur and darkens to near-black, small centred captions mixing Inter (grey connector words, white key words) with Instrument Serif italic, azure diamond badges with a kicker + title, cuts to off-white grid paper scenes (zig-zag diamond route, navy heavy headline with serif word and light-blue sparkles, price/number cards, bubble map around the speaker in a circle, growth curve), dark frosted glass cards with pill buttons and a clicking cursor, blur-in/blur-out transitions.",
+ "fonts": {
+  "caption": "500 46px Inter",
+  "display": "italic 400 64px InstrumentSerif",
+  "thinFamily": "Inter"
+ },
+ "colors": {
+  "text": "#FFFFFF",
+  "accent": "#1D8EC4",
+  "highlight": "#8CCBF0",
+  "sparkle": "#9CD1F4",
+  "ui": "#173A7A",
+  "splitBg": [
+   14,
+   12,
+   40
+  ],
+  "card": "#2A2E36"
+ },
+ "caption": {
+  "tracking": "-0.015em",
+  "stroke": 0,
+  "shadow": "0 2px 12px rgba(0,10,30,.45)",
+  "line1": {
+   "font": "400 46px Inter",
+   "size": 46,
+   "stroke": 0,
+   "color": "#FFFFFF"
+  },
+  "big": {
+   "font": "400 110px GreatVibes",
+   "size": 110,
+   "stroke": 0,
+   "color": "#FFFFFF",
+   "lh": 0.9,
+   "mt": -10,
+   "ls": "0"
+  },
+  "underline": {
+   "type": null,
+   "colors": [
+    "#1BF2F8"
+   ],
+   "glow": "#1BF2F8",
+   "glow2": "rgba(27,242,248,.55)"
+  }
+ },
+ "motion": {
+  "reveal": {
+   "dur": 0.3,
+   "startOpacity": 0,
+   "offsetEm": 0.14,
+   "blur": 9
+  },
+  "type": {
+   "cps": 42
+  }
+ },
+ "camera": {
+  "openScale": 1.07,
+  "openTau": 0.45
+ },
+ "dots": {
+  "speaker": 0
+ },
+ "pointer": {
+  "size": 54,
+  "stroke": 1.6,
+  "color": "#EDEDED",
+  "fill": "linear-gradient(160deg,#E3D2FF,#9B5CFF 45%,#5B16C9)"
+ },
+ "wallWords": {
+  "serif": "italic 400 120px InstrumentSerif",
+  "bold": "700 84px Inter",
+  "small": "400 54px Inter",
+  "color": "#FFFFFF",
+  "boldColor": "#FFFFFF",
+  "smallColor": "#EDEBF7",
+  "heavy": "800 230px Inter",
+  "heavyColor": "#FFFFFF",
+  "strokes": {
+   "small": 0,
+   "serif": 0,
+   "bold": 0,
+   "heavy": 0
+  },
+  "shadows": {
+   "heavy": "0 10px 40px rgba(0,10,30,.25)",
+   "serif": "0 6px 18px rgba(0,0,0,.3)",
+   "small": "0 3px 10px rgba(0,0,0,.3)",
+   "bold": "0 4px 14px rgba(0,0,0,.3)"
+  }
+ },
+ "stacked": {
+  "font": "500 60px Inter",
+  "stroke": 0,
+  "bigStroke": 0
+ },
+ "pointerLines": {
+  "size": 40,
+  "color": "#E6E6E4",
+  "tri": "#C9A2FF"
+ },
+ "card": {
+  "radius": 27,
+  "titleSize": 44,
+  "rowSize": 38
+ },
+ "chart": {
+  "text": "#8FFF85",
+  "capSize": 64,
+  "stops": [
+   [
+    "0",
+    "#D4FFCC"
+   ],
+   [
+    "0.35",
+    "#8BFF81"
+   ],
+   [
+    "1",
+    "#5CFF48"
+   ]
+  ],
+  "glow": "rgba(120,255,100,.85)",
+  "glow2": "rgba(110,255,90,.45)"
+ },
+ "map": {
+  "bg": "#080805",
+  "bgRGB": [
+   8,
+   8,
+   5
+  ],
+  "road": "#444444",
+  "route": "#FAFF18",
+  "routeGlow": "rgba(250,255,24,.45)",
+  "puck": "#F4721A",
+  "puckGlow": "rgba(244,114,26,.55)",
+  "ray": "#FFE68A"
+ },
+ "circleBg": [
+  [
+   0,
+   [
+    36,
+    35,
+    28
+   ]
+  ],
+  [
+   0.5,
+   [
+    44,
+    43,
+    43
+   ]
+  ],
+  [
+   1,
+   [
+    31,
+    31,
+    31
+   ]
+  ]
+ ],
+ "subtitles": {
+  "font": "700 58px Inter",
+  "size": 58,
+  "stroke": 0,
+  "shadow": "0 2px 12px rgba(20,0,50,.45)"
+ },
+ "chips": {
+  "bg": "#FFFFFF",
+  "color": "#1A1436",
+  "font": "600 38px Montserrat",
+  "icon": "#7B2FF2"
+ },
+ "watermark": "",
+ "palette_for_people": "cool studio footage melting into dark blur, off-white grid paper, azure #1D8EC4 diamonds, navy #173A7A headlines, Instrument Serif italics, dark frosted glass",
+ "signature_templates": [
+  "mixCaption",
+  "badgeLine",
+  "paperScene",
+  "diamondRoute",
+  "paperTitle",
+  "priceCard",
+  "bubbleMap",
+  "curveChart",
+  "glassCard",
+  "squareBadges",
+  "wallWords(heavy, behindHead)"
+ ],
+ "mix": {
+  "base": {
+   "lh": 1.04,
+   "mt": -2,
+   "shadow": "0 2px 14px rgba(0,10,30,.45)"
+  },
+  "script": {
+   "font": "italic 400 66px InstrumentSerif",
+   "size": 66,
+   "color": "#FFFFFF",
+   "ls": "0",
+   "dy": 2
+  },
+  "sans": {
+   "font": "500 44px Inter",
+   "size": 44,
+   "color": "rgba(232,236,242,.86)",
+   "ls": "-0.015em"
+  },
+  "bold": {
+   "font": "600 54px Inter",
+   "size": 54,
+   "color": "#FFFFFF",
+   "ls": "-0.025em"
+  },
+  "serif": {
+   "font": "italic 400 66px InstrumentSerif",
+   "size": 66,
+   "color": "#FFFFFF",
+   "ls": "0",
+   "dy": 2
+  },
+  "thin": {
+   "font": "400 40px Inter",
+   "size": 40,
+   "color": "rgba(225,230,238,.78)",
+   "ls": "-0.01em"
+  },
+  "heavy": {
+   "font": "800 150px Inter",
+   "size": 150,
+   "color": "#FFFFFF",
+   "ls": "-0.04em",
+   "upper": false
+  },
+  "bubble": {
+   "blur": 10
+  },
+  "underline": {
+   "color": "#FFFFFF",
+   "w": 1.8
+  }
+ },
+ "flash": {
+  "font": "600 50px Inter",
+  "size": 50,
+  "y": 1080,
+  "hold": 1.4,
+  "shadow": "0 2px 14px rgba(0,10,30,.45)"
+ },
+ "glow": {
+  "bg": [
+   [
+    0,
+    [
+     9,
+     13,
+     38
+    ]
+   ],
+   [
+    0.5,
+    [
+     18,
+     17,
+     64
+    ]
+   ],
+   [
+    0.8,
+    [
+     36,
+     15,
+     92
+    ]
+   ],
+   [
+    1,
+    [
+     70,
+     18,
+     128
+    ]
+   ]
+  ],
+  "badgeFill": "linear-gradient(160deg,#5DBDF0 0%,#1D8EC4 52%,#14699C 100%)",
+  "badgeRim": "#E6F1F8",
+  "badgeFont": "600 40px Inter",
+  "glowColor": "rgba(29,142,196,.55)",
+  "glowColor2": "rgba(29,142,196,.18)",
+  "rim": "#C9A2FF",
+  "rimW": 4,
+  "radius": 27,
+  "titleFont": "600 42px Montserrat",
+  "title": "#E9E6F5",
+  "footFont": "500 31px Montserrat",
+  "foot": "#D8D6E6",
+  "rowRim": "rgba(245,235,255,.95)",
+  "rowGlow": "rgba(230,200,255,.85)",
+  "rowRadius": 14
+ },
+ "list": {
+  "font": "500 28px Montserrat",
+  "color": "#F2F0FA",
+  "gap": 30,
+  "icon": 34,
+  "iconColor": "#FFFFFF",
+  "glow": "rgba(255,255,255,.8)",
+  "width": 330,
+  "lh": 1.25,
+  "cps": 40,
+  "arrow": {
+   "icon": 40,
+   "gap": 26
+  }
+ },
+ "leader": {
+  "color": "#FFFFFF",
+  "w": 2.2,
+  "font": "500 22px Montserrat",
+  "text": "#EDEBF7"
+ },
+ "videoCard": {
+  "radius": 22,
+  "family": "Inter",
+  "blur": 14
+ },
+ "hud": {
+  "ring": "#B47CFF",
+  "ringGlow": "rgba(180,124,255,.9)",
+  "ringGlow2": "rgba(150,90,255,.45)",
+  "bar": "#D9C2FF",
+  "star": "#C9A2FF",
+  "panelFill": "linear-gradient(180deg,rgba(110,60,220,.55),rgba(70,30,170,.38) 60%,rgba(70,30,170,.2))",
+  "panelEdge": "rgba(220,200,255,.3)",
+  "blur": 16
+ },
+ "cta": {
+  "tile": "radial-gradient(ellipse at 50% 85%,#6A2BD0,#24102F 60%,#141018)"
+ },
+ "modes": [
+  "speaker + mixCaption: small centred captions on the blurred chest (grey connector words, white bold key words, serif italic accent word)",
+  "speaker + badgeLine: a numbered point / module / principle",
+  "speaker + glassCard: a number, plan, balance, course or CTA button (cursor click)",
+  "speaker + squareBadges: 'do all three' / short numbered set",
+  "speaker + wallWords heavy behindHead: one big word behind the head",
+  "paperScene + diamondRoute: who it is for / 3 steps",
+  "paperScene + paperTitle: the key claim as a headline (small line, heavy navy word, serif word)",
+  "paperScene + priceCard: price, offer, before/after value",
+  "paperScene (speaker circle) + bubbleMap: things that connect to the speaker / a hub",
+  "paperScene + curveChart: growth, levels, basics to advanced"
+ ],
+ "anchors": {
+  "mixCaption": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.46
+  },
+  "wordFlash": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.5
+  },
+  "diamondBadges": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.69
+  },
+  "diamondBadge": {
+   "@": "chin",
+   "dx": -0.95,
+   "pin": "center",
+   "fy": 0.3
+  },
+  "videoCard": {
+   "@": "chin",
+   "dx": 0.1,
+   "pin": "top-center",
+   "fy": 0.61
+  },
+  "cardRow": {
+   "@": "top",
+   "dy": -0.2,
+   "pin": "center",
+   "axis": "y",
+   "avoidFace": false
+  },
+  "bulletList": {
+   "@": "side",
+   "dx": 0.25,
+   "dy": 0.6
+  },
+  "ringStat": {
+   "@": "chin",
+   "dx": 0.15,
+   "pin": "center",
+   "fy": 0.55
+  },
+  "glassPanel": {
+   "@": "chin",
+   "dx": 0.1,
+   "pin": "top-center",
+   "fy": 0.2
+  },
+  "productCard": {
+   "@": "chin",
+   "dx": -0.35,
+   "pin": "top-center",
+   "fy": 0.32
+  },
+  "commentCta": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.2
+  },
+  "ratingStars": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "center",
+   "fy": 0.73
+  },
+  "chestCaption": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.22
+  },
+  "glassCard": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.62
+  },
+  "badgeLine": {
+   "@": "chin",
+   "dx": -0.05,
+   "pin": "top-center",
+   "fy": 0.42
+  },
+  "squareBadges": {
+   "@": "chin",
+   "dx": 0,
+   "pin": "top-center",
+   "fy": 0.36
+  }
+ },
+ "safe": [
+  60,
+  200,
+  1020,
+  1650
+ ],
+ "speaker": {
+  "lowBlur": {
+   "y": 1080,
+   "ramp": 320,
+   "sigma": 16,
+   "dark": [
+    1380,
+    1780,
+    0.88
+   ]
+  },
+  "grade": {
+   "band": [
+    75,
+    165
+   ],
+   "shift": 45,
+   "sat": 0.96,
+   "bandSat": 0.62,
+   "bandVal": 0.78
+  }
+ },
+ "az": {
+  "paperRGB": [
+   242,
+   240,
+   236
+  ],
+  "grid": "rgba(30,45,70,.05)",
+  "gridStep": 56,
+  "ink": "#1A1D24",
+  "muted": "#7A818C",
+  "navy": "#173A7A",
+  "azure": "#1D8EC4",
+  "azureLight": "#A6D6F5",
+  "line": "rgba(29,142,196,.55)",
+  "strike": "#E0474C",
+  "text": {
+   "kicker": {
+    "font": "600 30px Inter",
+    "color": "#7A818C"
+   },
+   "small": {
+    "font": "500 46px Inter",
+    "color": "#1A1D24"
+   },
+   "sans": {
+    "font": "500 54px Inter",
+    "color": "#1A1D24"
+   },
+   "bold": {
+    "font": "700 86px Inter",
+    "color": "#173A7A",
+    "ls": "-0.035em"
+   },
+   "heavy": {
+    "font": "800 200px Inter",
+    "color": "#173A7A",
+    "ls": "-0.055em"
+   },
+   "serif": {
+    "font": "italic 400 108px InstrumentSerif",
+    "color": "#1F5FA8",
+    "ls": "0"
+   },
+   "price": {
+    "font": "800 280px Inter",
+    "color": "#173A7A"
+   }
+  },
+  "bubbleFont": "600 38px Inter",
+  "tagFont": "700 40px Inter",
+  "glass": {
+   "radius": 40,
+   "blur": 18,
+   "primary": "#9BD4FF",
+   "primaryText": "#0B2540",
+   "pill": "rgba(18,58,104,.78)",
+   "pillText": "#8CCBF0"
+  },
+  "line1": {
+   "font": "600 56px Inter",
+   "size": 56,
+   "kicker": "600 24px Inter",
+   "kickerColor": "rgba(225,230,238,.75)"
+  }
+ }
+}
